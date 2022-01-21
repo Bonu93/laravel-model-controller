@@ -9,7 +9,7 @@
     <title>Laravel-controller-model</title>
 </head>
 <body class="bg-dark text-light d-flex flex-column">
-    <header>
+    <header class="d-flex justify-content-center">
         @include('partials.header')
     </header>
 
