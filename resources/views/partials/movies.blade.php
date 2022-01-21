@@ -6,10 +6,10 @@
         <div class="row">
             @foreach ($movies as $movie)
                 <div class="col-3">
-                    <div class="card mb-2">
+                    <div class="card p-4 text-center mb-4 text-dark">
                         <h3>{{$movie->title}}</h3>
-                        <h4>{{$movie->date}}</h4>
-                        <h4>{{$movie->vote}}</h4>
+                        <h4>Data: {{$movie->date}}</h4>
+                        <h4>Voto: {{$movie->vote}}</h4>
                     </div>
                 </div>
             @endforeach
