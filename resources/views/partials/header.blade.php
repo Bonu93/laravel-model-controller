@@ -10,6 +10,10 @@
             <a class="nav-link 
             @if (Request::route()->getName() === 'home') active @endif" aria-current="page" href="{{route('home')}}">Home</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link 
+            @if (Request::route()->getName() === 'movies') active @endif" aria-current="page" href="{{route('movies')}}">Movies</a>
+          </li>
         </ul>
         
       </div>
